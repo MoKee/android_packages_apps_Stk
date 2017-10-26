@@ -90,13 +90,25 @@ public class StkDialogActivity extends Activity {
         alertDialogBuilder.setNegativeButton(R.string.button_cancel, new
                 DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog,int id) {
+                    public void onClick(DialogInterface dialog, int id) {
                         CatLog.d(LOG_TAG, "Cancel Clicked!, mSlotId: " + mSlotId);
                         cancelTimeOut();
                         sendResponse(StkAppService.RES_ID_CONFIRM, false);
                         finish();
                     }
                 });
+
+        alertDialogBuilder.setOnCancelListener(new
+                DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialog) {
+                        CatLog.d(LOG_TAG, "Back Clicked!, mSlotId: " + mSlotId);
+                        cancelTimeOut();
+                        sendResponse(StkAppService.RES_ID_BACKWARD);
+                        finish();
+                    }
+                });
+
         alertDialogBuilder.create();
 
         mContext = getBaseContext();
