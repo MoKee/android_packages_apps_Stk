@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The MoKee Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1080">
+  <path
+      android:pathData="M423.87,362.59L656.12,362.59A45.16,45.16 0,0 1,701.28 407.75L701.28,672.26A45.16,45.16 0,0 1,656.12 717.42L423.87,717.42A45.16,45.16 0,0 1,378.71 672.26L378.71,407.75A45.16,45.16 0,0 1,423.87 362.59z"
+      android:strokeWidth="17.92"
+      android:fillColor="#ffe8ad"
+      android:strokeColor="#cc8635"/>
+  <path
+      android:pathData="M701.29,407.75v73.11h-215V362.59H656.13A45.3,45.3 0,0 1,701.29 407.75Z"
+      android:strokeWidth="17.92"
+      android:fillColor="#ffe8ad"
+      android:strokeColor="#cc8635"/>
+  <path
+      android:pathData="M593.76,421.72l0,-59.13l0,118.27"
+      android:strokeWidth="18.06"
+      android:fillColor="#ffe3a7"
+      android:strokeColor="#cc8635"/>
+  <path
+      android:pathData="M701.29,599.14v73.11a45.3,45.3 0,0 1,-45.16 45.16H423.87a45.3,45.3 0,0 1,-45.16 -45.16V599.14Z"
+      android:strokeWidth="17.92"
+      android:fillColor="#ffe8ad"
+      android:strokeColor="#cc8635"/>
+  <path
+      android:pathData="M482.14,658.28l0,-59.14l0,118.27"
+      android:strokeWidth="18.06"
+      android:fillColor="#ffe3a7"
+      android:strokeColor="#cc8635"/>
+  <path
+      android:pathData="M589.66,658.28l0,-59.14l0,118.27"
+      android:strokeWidth="18.06"
+      android:fillColor="#ffe3a7"
+      android:strokeColor="#cc8635"/>
+</vector>
